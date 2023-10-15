@@ -32,7 +32,7 @@ jobs:
       working-directory: child_module/
 
     - name: Plan Terraform changes
-      run: terraform plan -var-file=terraform.tfvars 
+      run: terraform plan  
       working-directory: child_module/
 
     - name: Apply Terraform changes
